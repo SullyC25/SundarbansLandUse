@@ -1,0 +1,16 @@
+Code to run IRIS through a Docker terminal
+
+1. load up your appropiate Docker container 
+
+2. Open up a command terminal and use this code below 
+
+    docker pull totony4real/iris:1.0
+
+3. once this has been run use this line of code. upon prompting make sure to add your password 
+
+    docker run -p 80:5000 -v "/c/Users/sully/IST Report Dropbox/Sully Choudhury/PC/Desktop/MyImage:/dataset/" --rm -it totony4real/iris:1.0 label /dataset/config.json
+
+4. Don't use the server link that the command terminal recommends instead copy and paste this link into your browser for access to your IRIS
+
+    http://localhost:80
+

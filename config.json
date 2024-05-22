@@ -1,0 +1,66 @@
+{
+    "name": "Sunda",
+    "images": {
+        
+        "path": "{id}.npy"
+        ,
+        "shape": [2012,2012]
+    },
+    "segmentation": {
+        "path": "{id}/mask.png",
+        "mask_encoding": "rgb",
+        "mask_area": [500, 200, 1000, 1000],
+        "score": "f1",
+        "unverified_threshold": 1,
+        "test_images": null
+    },
+    "classes": [
+      {
+        "name": "River",
+        "description": "...",
+        "colour": [255,255,255,0],
+        "user_colour": [0,255,255,70]
+      },
+      {
+        "name": "Forest",
+        "description": "...",
+        "colour": [0, 255, 0, 255]
+      },
+      {
+        "name": "Urban",
+        "description": "...",
+        "colour": [128, 128, 128, 255]
+      }
+
+    ],
+    "views": {
+        
+        "combo1": {
+            "description": ".",
+            "type": "image",
+            "data": ["$B1","$B2","$B3"]
+        },
+        "combo2": {
+            "description": ".",
+            "type": "image",
+            "data": ["$B1","$B10","$B20"]
+        },
+        "combo3": {
+            "description": "Normal RGB image.",
+            "type": "image",
+            "data": ["$B15","$B18","$B21"]
+        },
+        "RGB": {
+            "description": "Normal RGB image.",
+            "type": "image",
+            "data": ["$B4","$B3","$B2"]
+        }
+
+    },
+    "view_groups": {
+        "default": ["combo1","combo2"],
+        "radar": ["combo3", "RGB"]
+    }
+  
+  }
+  

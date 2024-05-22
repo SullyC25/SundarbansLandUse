@@ -1,5 +1,7 @@
 # Sundarbans Land Cover Classification Project
 
+
+
 ## Introduction
 The Sundarbans is one of the world's largest mangrove forests it is located on the border between Bangladesh and India. Covering approximately 10,000 km², this ecologically crucial area acts as a natural barrier against cyclones from the Bay of Bengal. It faces threats from deforestation, climate change, and human encroachment, leading to significant land cover changes(Rahman and Begum, 2011). Innovative solutions like AI tools are essential for environmental monitoring and management in such dynamic and vulnerable landscapes(Rahman et al, 2013)
 
@@ -13,9 +15,13 @@ We utilize high-resolution optical images from the Sentinel-2 satellite, collect
 ## Methodology
 We apply a supervised learning approach, using the IRIS tool to manually label images and train our model. This method ensures enhanced accuracy by utilizing pre-identified labels to guide the learning algorithm.
 
+A figure illustrating the remote sensing technique
+![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/56058047-b8a3-4737-9886-72303b06082b)
+
+A diagram of the AI algorithm and its implementation
 ![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/ce784566-2e39-48f7-a752-c17371c91763)
 
-![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/56058047-b8a3-4737-9886-72303b06082b)
+
 
 ## Problem Description
 The dynamic nature of land use and land cover in the Sundarbans poses significant challenges. Rapid changes due to natural and anthropogenic factors complicate tracking land usage and its impact on local and global ecosystems. This project leverages AI to provide a clearer picture of the evolving interlinkages among forest, river, and urban areas.
@@ -24,6 +30,8 @@ The dynamic nature of land use and land cover in the Sundarbans poses significan
 ![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/45e1cfac-9367-46f1-8c61-2d85edc6b487)
 
 ![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/a6bbe976-18f3-47ec-8d94-bad3123b087b)
+
+![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/58b56553-b580-46cc-a26c-4304bdc0aca3)
 
 
 ## Issues and Proposed Improvements

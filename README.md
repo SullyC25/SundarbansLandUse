@@ -23,6 +23,7 @@ The dynamic nature of land use and land cover in the Sundarbans poses significan
 ## Results
 ![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/45e1cfac-9367-46f1-8c61-2d85edc6b487)
 
+![image](https://github.com/SullyC25/SundarbansLandUse/assets/160886905/a6bbe976-18f3-47ec-8d94-bad3123b087b)
 
 
 ## Issues and Proposed Improvements

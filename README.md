@@ -1,5 +1,7 @@
 # Sundarbans Land Cover Classification Project
 
+[![Watch the video](https://img.youtube.com/vi/yBV6qC6MBzE/maxresdefault.jpg)](https://www.youtube.com/watch?v=yBV6qC6MBzE)
+
 
 ## Introduction
 The Sundarbans is one of the world's largest mangrove forests it is located on the border between Bangladesh and India. Covering approximately 10,000 km², this ecologically crucial area acts as a natural barrier against cyclones from the Bay of Bengal. It faces threats from deforestation, climate change, and human encroachment, leading to significant land cover changes(Rahman and Begum, 2011). Innovative solutions like AI tools are essential for environmental monitoring and management in such dynamic and vulnerable landscapes(Rahman et al, 2013)
